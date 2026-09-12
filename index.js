@@ -15,7 +15,9 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_ORIGIN || "http://localhost:5173",
+    origin:
+      process.env.CLIENT_ORIGIN ||
+      "https://take-it-easy-client-ol45.vercel.app",
   }),
 );
 
